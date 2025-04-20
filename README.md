@@ -58,7 +58,8 @@ home_assignment/
 │   ├── valid_*.csv
 │   ├── invalid_*.csv
 │   └── expected_results.json
-├── app.py                    ← Provided server (not modified)
+├── server/                   ← Provided FastAPI server (not modified)
+│   └── app.py
 ├── requirements.txt
 └── report.html               ← Generated test report
 ```
