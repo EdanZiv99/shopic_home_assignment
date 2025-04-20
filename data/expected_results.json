@@ -1,0 +1,56 @@
+{
+    "valid_products_1": {
+        "total": 3,
+        "success_count": 3,
+        "error_count": 0
+    },
+    "valid_products_2": {
+        "total": 2,
+        "success_count": 2,
+        "error_count": 0
+    },
+    "invalid_products_1": {
+        "total": 3,
+        "success_count": 0,
+        "error_count": 3,
+        "expected_errors": [
+            "Missing name in row 0",
+            "Invalid price in row 1",
+            "Invalid price in row 2"
+        ]
+    },
+    "invalid_products_2": {
+        "total": 3,
+        "success_count": 0,
+        "error_count": 2,
+        "expected_errors": [
+            "Missing name in row 0",
+            "Invalid price in row 1"
+        ]
+    },
+    "invalid_edge_headers_only": {
+        "total": 0,
+        "success_count": 0,
+        "error_count": 1
+    },
+    "valid_edge_zero_price": {
+        "total": 1,
+        "success_count": 1,
+        "error_count": 0
+    },
+    "invalid_edge_empty": {
+        "total": 0,
+        "success_count": 0,
+        "error_count": 1
+    },
+    "invalid_edge_missing_headers": {
+        "total": 3,
+        "success_count": 0,
+        "error_count": 1
+    },
+    "invalid_edge_single_column": {
+        "total": 1,
+        "success_count": 0,
+        "error_count": 1
+    }
+}
